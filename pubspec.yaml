@@ -1,0 +1,12 @@
+name: mados_group
+description: Project for mados group.
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+dependencies:
+  hive: ^2.2.3
+  http: ^0.13.5
+  network_info_plus: ^2.1.3
+  uuid: ^3.0.6
+dev_dependencies:
+  hive_generator: ^1.1.3
+  build_runner: ^2.2.0
