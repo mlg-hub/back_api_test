@@ -1,0 +1,5 @@
+to Start the server .. 
+1. install nodejs
+2. install globally nodemon
+3. at the root of the project run:  
+    nodemon -x "dart run lib/main.dart " -e dart

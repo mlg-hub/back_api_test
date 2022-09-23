@@ -106,6 +106,11 @@ class ClientRequest {
       case '/logout_user':
         return await apiRequest.logout_user();
       case '/delete_idea':
+        /*  
+      {
+        "index": "9" index of the idea
+      }
+      */
         return await apiRequest.delete_idea(req);
       case '/like_idea':
         return await apiRequest.like_idea(req);

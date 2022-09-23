@@ -16,7 +16,7 @@ void main() async {
     ..registerAdapter(IdeaAdapter());
 
   print("Enter the ip du serveur: ");
-  String? localhost = "192.168.1.13" ?? stdin.readLineSync();
+  String? localhost = stdin.readLineSync();
 
   try {
     final apiRequest = Api();
